@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-ligth border-dark" id="sidebar-wrapper">
+      <div class="sidebar-heading">AMORTIZACION </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-ligth">Activos</a>
+        <a href="#" class="list-group-item list-group-item-action bg-ligth">Amortizacion</a>
+        <a href="#" class="list-group-item list-group-item-action bg-ligth">Status</a>
+
+      
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+   
+
+    <div class="col">
+     
+        <nav class="navbar navbar-ligth bg-danger ">
+            <button class="btn btn-dark" id="menu-toggle">
+
+                <span>&#9776</span>
+
+            </button>
+            
+      
+            </nav>
+        
+                
+             <h1>BUSQUEDA </h1>
+    
+          
+
+             <div class="card" id="datos">
+       
+                <!--Aqui se desplegara la tabla de consulta SEARCH LIVE-->
+
+                <H1>TABLA DE ACTIVOS</H1>
+              
+                </div>
+
+       
+     
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="ajax/search.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
